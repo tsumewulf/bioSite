@@ -1,0 +1,267 @@
+/* Primary colors */
+:root {
+  --primary-color: #228b22;
+  --secondary-color: #7A9972;
+  --accent-color: #9999cc;
+}
+
+/* Typography */
+body {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+/* Header */
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: #9999cc;
+  padding: 0em 1em 0em .5em;
+  border-radius: 5px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* Landing page */
+.landing {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 3em;
+  text-align: center;
+}
+
+.landing h1 {
+  margin-top: 0;
+  font-size: 3em;
+}
+
+.landing p {
+  max-width: auto;
+  margin: 1em auto;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+.landing .image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.landing .image-item {
+  flex: 0 0 30%;
+  margin: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing .image-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
+.landing .image-item p {
+  margin: 0;
+}
+
+/* About me page */
+.about {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 3em;
+  text-align: center;
+}
+
+.about h1 {
+  margin-top: 0;
+  font-size: 3em;
+}
+
+.about p {
+  max-width: auto;
+  margin: 1em auto;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+.about .image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about .image-item {
+  flex: 0 0 30%;
+  margin: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%; 
+  height: auto;
+}
+
+.about .image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about .biography {
+  margin: 3px;
+  padding: 1px;
+}
+
+.about .biography p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: white;
+  width: 100%;
+  margin: 4;
+	max-width: none;
+}
+
+.biography .highlight {
+  color: #EFED21;
+}
+
+/* Hobbies page */
+.hobbies {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 3em;
+  text-align: center;
+}
+
+.hobbies h1 {
+  margin-top: 0;
+  font-size: 3em;
+}
+
+.hobbies p {
+  max-width: auto;
+  margin: 1em auto;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+.hobbies .image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hobbies .image-item {
+  flex: 0 0 30%;
+  margin: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.hobbies .image-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 100%;
+}
+
+.hobbies .image-item p {
+  margin: 0;
+}
+
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: black;
+  padding: 1em;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #9999cc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+footer li {
+  margin: 0 1em;
+}
+
+footer img {
+  height: 1.5em;
+}
